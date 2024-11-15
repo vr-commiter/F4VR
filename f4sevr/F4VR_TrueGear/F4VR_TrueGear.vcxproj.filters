@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="dirent.h" />
+    <ClInclude Include="F4VR_TrueGear.h" />
+    <ClInclude Include="Hook.h" />
+    <ClInclude Include="json.hpp" />
+    <ClInclude Include="Utility.hpp" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="Sky.h" />
+    <ClInclude Include="GameStop.h" />
+    <ClInclude Include="easywsclient.hpp" />
+    <ClInclude Include="base64.h" />
+    <ClInclude Include="configor\configor.hpp">
+      <Filter>configor</Filter>
+    </ClInclude>
+    <ClInclude Include="configor\configor_conversion.hpp">
+      <Filter>configor</Filter>
+    </ClInclude>
+    <ClInclude Include="configor\configor_declare.hpp">
+      <Filter>configor</Filter>
+    </ClInclude>
+    <ClInclude Include="configor\configor_encoding.hpp">
+      <Filter>configor</Filter>
+    </ClInclude>
+    <ClInclude Include="configor\configor_exception.hpp">
+      <Filter>configor</Filter>
+    </ClInclude>
+    <ClInclude Include="configor\configor_iterator.hpp">
+      <Filter>configor</Filter>
+    </ClInclude>
+    <ClInclude Include="configor\configor_parser.hpp">
+      <Filter>configor</Filter>
+    </ClInclude>
+    <ClInclude Include="configor\configor_serializer.hpp">
+      <Filter>configor</Filter>
+    </ClInclude>
+    <ClInclude Include="configor\configor_stream.hpp">
+      <Filter>configor</Filter>
+    </ClInclude>
+    <ClInclude Include="configor\configor_token.hpp">
+      <Filter>configor</Filter>
+    </ClInclude>
+    <ClInclude Include="configor\configor_value.hpp">
+      <Filter>configor</Filter>
+    </ClInclude>
+    <ClInclude Include="configor\configor_wrapper.hpp">
+      <Filter>configor</Filter>
+    </ClInclude>
+    <ClInclude Include="configor\json.hpp">
+      <Filter>configor</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectObject.h" />
+    <ClInclude Include="cmd.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F4VR_TrueGear.cpp" />
+    <ClCompile Include="Hook.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="config.cpp" />
+    <ClCompile Include="GameStop.cpp" />
+    <ClCompile Include="easywsclient.cpp" />
+    <ClCompile Include="base64.cpp" />
+    <ClCompile Include="EffectObject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F4VR_TrueGear.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="configor">
+      <UniqueIdentifier>{c9d87222-90a1-473f-b009-3c246895d4d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
