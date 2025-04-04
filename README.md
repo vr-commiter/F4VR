@@ -8,7 +8,7 @@
 
 [F4SE](https://f4se.silverlock.org/)
 [Mod Organizer 2](https://www.nexusmods.com/skyrimspecialedition/mods/6194)
-[F4VR_TrueGear](https://truegear.s3.bitiful.net/F4VR/F4VR_TrueGear.rar)
+[F4VR_TrueGear](https://github.com/vr-commiter/F4VR/releases/download/v0.1.0-beta/F4VR_TrueGear.rar)
 
 
 ### Install F4SE
